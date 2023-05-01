@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/today"
+        android:icon="@drawable/home_fill"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/weeklyFragment"
+        android:title="@string/weekly"
+        android:icon="@drawable/calendar_fill"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/share"
+        android:icon="@drawable/share_fill"
+        tools:ignore="MenuTitle" />
+
+</menu>
